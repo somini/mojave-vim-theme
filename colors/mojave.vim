@@ -44,7 +44,6 @@ hi DiffAdd        term=bold ctermfg=16 ctermbg=40 guifg=#000000 guibg=#33cc33
 hi DiffChange     term=bold ctermfg=16 ctermbg=44 guifg=#000000 guibg=#33cccc
 hi DiffDelete     term=bold ctermfg=231 ctermbg=160 gui=bold guifg=#ffffff guibg=#cc3333
 hi DiffText       term=reverse cterm=bold ctermfg=231 ctermbg=20 gui=bold guifg=#ffffff guibg=#3333cc
-hi SignColumn     term=standout ctermfg=14 ctermbg=242 guifg=Cyan guibg=Grey
 hi Conceal        ctermfg=7 ctermbg=242 guifg=LightGrey guibg=DarkGrey
 hi SpellBad       term=reverse ctermbg=9 gui=undercurl guisp=Red
 hi SpellCap       term=reverse ctermbg=12 gui=undercurl guisp=Blue
@@ -72,3 +71,5 @@ hi Type           ctermfg=143 guifg=#bdb76b
 hi Special        ctermfg=223 guifg=#ffdead
 hi Ignore         ctermfg=240 guifg=#666666
 hi Todo           ctermfg=196 ctermbg=226 guifg=#ff4500 guibg=#eeee00
+
+highlight! default link SignColumn LineNr
